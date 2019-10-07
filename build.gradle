@@ -17,9 +17,11 @@ test {
 
 dependencies {
 
-    testImplementation(
+    testCompile(
             'org.junit.jupiter:junit-jupiter-api:5.4.2',
-            'org.hamcrest:hamcrest:2.1'
+            'org.hamcrest:hamcrest:2.1',
+            'org.mockito:mockito-core:3.1.0',
+            'org.mockito:mockito-junit-jupiter:3.1.0',
     )
 
     testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
